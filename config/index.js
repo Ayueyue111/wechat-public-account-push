@@ -57,7 +57,7 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [oDPZX685IvLmZdkQLmpT0nKQh3uc
+  USERS: [oDPZX685IvLmZdkQLmpT0nKQh3uc]
     {
       // 想要发送的人的名字
       name: "亲爱的老公",
@@ -76,7 +76,7 @@ export const config = {
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [节日提醒
+      festivals: [节日提醒]
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
@@ -85,7 +85,7 @@ export const config = {
         {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [在一起的日子
+      customizedDateList: [在一起的日子]
         // 在一起的日子
         {"keyword": "love_day", date: "2021-08-15"},
         // 结婚纪念日
